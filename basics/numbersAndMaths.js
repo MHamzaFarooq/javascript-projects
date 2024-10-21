@@ -12,6 +12,15 @@
 // console.log(balance3.toPrecision(5));
 
 
-let million = 1000000
+// let million = 1000000
 
-console.log(million.toLocaleString('en-PK'));
+// console.log(million.toLocaleString('en-PK'));
+
+//-----------MATHS------------
+
+// console.log(Math.floor((Math.random()*10)+1));
+
+min = 25
+max = 55
+
+console.log(Math.floor(Math.random()*(max - min + 1) + min));
